@@ -1,0 +1,16 @@
+{
+  "name": "qz-sensoralarm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lskk/qz-sensoralarm.git",
+  "author": "mohammedwazier <m.waziruddin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "worker1": "nodemon worker1/index.js"
+  },
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1",
+    "pm2": "^3.5.1"
+  }
+}

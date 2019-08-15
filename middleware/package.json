@@ -1,0 +1,12 @@
+{
+  "name": "middleware",
+  "version": "1.0.0",
+  "description": "Middleware QZ-SensorAlarm",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.19.1",
+    "portscanner": "^2.2.0"
+  }
+}

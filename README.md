@@ -22,3 +22,7 @@ Client (*)Milestone 1
     Open Terminal
     'cd client && node client.js'
 ```
+## Install
+```
+    yarn _install
+```

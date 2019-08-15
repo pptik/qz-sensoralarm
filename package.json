@@ -6,7 +6,8 @@
   "author": "mohammedwazier <m.waziruddin@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "worker1": "nodemon worker1/index.js"
+    "worker1": "nodemon worker1/index.js",
+    "_install": "yarn install && cd client && yarn install && cd ../ && cd worker1 && yarn install &&  cd ../ && cd middleware && yarn install"
   },
   "dependencies": {
     "concurrently": "^4.1.1",

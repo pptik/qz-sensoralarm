@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "concurrently": "^4.1.1",
+    "dotenv": "^8.1.0",
     "nodemon": "^1.19.1",
     "pm2": "^3.5.1"
   }
